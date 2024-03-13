@@ -1,3 +1,9 @@
+<?php
+    // Include the configuration file
+    require_once('./config/config.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,12 +21,6 @@
     <meta property="og:title" content="Bengal Coding Club" />
     <meta property="og:description"
         content="Join Bengal Coding Club for a collaborative coding experience. Empowering coders and fostering innovation." />
-    <meta property="og:image" content="URL_TO_YOUR_LOGO_OR_FEATURED_IMAGE" />
-    <meta property="og:url" content="URL_TO_YOUR_WEBSITE" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bengal Coding Club" />
-    <meta name="twitter:description"
-        content="Empowering Coders, Fostering Innovation. Join our coding community for learning and collaboration." />
 
     <title>Bengal Coding Club - Empowering Coders, Fostering Innovation</title>
 
