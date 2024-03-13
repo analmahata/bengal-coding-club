@@ -1,5 +1,24 @@
 :root {
-  /* CSS HEX */
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+
+  --clr-primary: #0099ff;
+  --clr-primary-second: #ff5e14;
+  --clr-secondary: #ff8c00;
+
+  --clr-danger: #d80000;
+  --clr-sucess: #27ae60;
+
+  --clr-black: #000000;
+  --clr-blue: #0099ff;
+  --clr-red: #ff0000;
+  --clr-purple: #620089;
+  --clr-yellow: #ffff00;
+  --clr-orange: #ff9900;
+  --clr-green: #27ae60;
+  --clr-pink: #f73cb9;
+
+  /*----------| Gray shades |----------*/
   --clr-gray-100: #f8f9faff;
   --clr-gray-200: #e9ecefff;
   --clr-gray-300: #dee2e6ff;
@@ -9,9 +28,18 @@
   --clr-gray-700: #495057ff;
   --clr-gray-800: #343a40ff;
   --clr-gray-900: #212529ff;
+
+  /*----------| Text colors |----------*/
+  --text-100: #1d1c1c;
+  --text-200: #313d44;
+
+  /*----------| custom font variables |----------*/
+  --ff-montserrot: "Montserrat", sans-serif;
+  --ff-kaushan-script: "Kaushan Script", cursive;
+  --ff-roboto-condensed: "Roboto Condensed", sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
 }
 
-/* SCSS Gradient */
 $gradient-top: linear-gradient(
   0deg,
   #f8f9faff,

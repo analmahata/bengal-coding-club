@@ -3,3 +3,10 @@
     font-size: 52%;
   }
 }
+
+body {
+  color: var(--clr-white);
+  overflow-x: hidden;
+  background-color: var(--background);
+  font-family: var(--ff-roboto-condensed);
+}

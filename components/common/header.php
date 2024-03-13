@@ -35,7 +35,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-----------<=====| Stylesheets |=====>----------->
-    <link rel="stylesheet" href="../../stylesheets/css/style.css" />
+    <link rel="stylesheet" href="./stylesheets/css/style.css" />
 
     <!-------------------<[😎]>>-------------------
         This website created by Anal Mahata
@@ -49,3 +49,29 @@
 </head>
 
 <body>
+    <!----------| Header section start |---------->
+    <header class="header">
+        <div class="navbar-logo-container">
+            <a href="#">
+                <div class="header-logo-img-container">
+                    <img src="./assets/images/logos/main-logo-light-mode.png" alt="" />
+                </div>
+                <div class="header-logo-text-container">
+                    <span class="ff">Bengal</span>
+                    <h5>Coding Club</h5>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-menu-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Guidelines</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="inactive" id="menu-icon">
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+    </header>
+    <!----------| Header section end |---------->
