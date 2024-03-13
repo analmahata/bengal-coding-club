@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: var(--bg-200);
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--clr-primary);
+  border-radius: 5rem;
+}

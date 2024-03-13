@@ -35,7 +35,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-----------<=====| Stylesheets |=====>----------->
-    <link rel="stylesheet" href="./stylesheets/css/style.css" />
+    <link rel="stylesheet" href="../../stylesheets/css/style.css" />
 
     <!-------------------<[😎]>>-------------------
         This website created by Anal Mahata
