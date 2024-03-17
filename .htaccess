@@ -1,0 +1,18 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Rewrite base to root directory
+RewriteBase /
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Rewrite index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+index\.php [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Rewrite non-existing files/directories to index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
