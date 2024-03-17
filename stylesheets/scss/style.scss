@@ -6,7 +6,10 @@
 @use "./imports/custom/classes" as *;
 @use "./imports/custom/scrollBar" as *;
 @use "./imports/custom/config" as *;
+@use "./imports/custom/sizes" as *;
 @use "./imports/custom/buttons" as *;
 
 /*----------| Import all custom component styles |----------*/
 @use "./components/header" as *;
+@use "./pages/index" as *;
+@use "./components/footer" as *;

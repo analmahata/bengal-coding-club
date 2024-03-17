@@ -1,0 +1,130 @@
+.footer {
+  background: var(--clr-white);
+  padding: 2rem 8rem;
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    border-bottom: 1px solid var(--clr-gray-500);
+
+    .footer-col {
+      padding: 2rem 0;
+
+      h4 {
+        color: var(--text-100);
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+      .links {
+        li {
+          padding: 0.5rem 0.5rem 0.5rem 0;
+          a {
+            padding: 2.5rem 2.5rem 2.5rem 0;
+            font-size: 1.5rem;
+            color: var(--text-200);
+            transition: var(--transition-400);
+
+            &:hover {
+              color: var(--clr-primary);
+              padding-left: 1rem;
+            }
+          }
+        }
+      }
+
+      .branding {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+        img {
+          width: 20rem;
+        }
+
+        p {
+          margin-top: 1rem;
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+
+        input {
+          border-radius: 1rem;
+          background-color: var(--clr-gray-200);
+          padding: 1rem;
+          transition: var(--transition-400);
+
+          &:focus,
+          &:hover {
+            outline: 1px solid var(--clr-primary);
+          }
+        }
+
+        .sub-btn {
+          padding: 1rem;
+          border-radius: 50%;
+          background-color: var(--clr-gray-200);
+          transition: var(--transition-400);
+          cursor: pointer;
+
+          &:hover {
+            color: var(--clr-white);
+            background-color: var(--clr-primary);
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    p {
+      padding: 2rem;
+      color: var(--text-100);
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+
+    .footer-row {
+      justify-content: center;
+      gap: 2rem;
+
+      .footer-col {
+        .links {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+          li {
+            padding-left: 2.5rem;
+          }
+        }
+
+        .subscribe {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

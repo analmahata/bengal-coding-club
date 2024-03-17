@@ -1,12 +1,19 @@
 @media (max-width: 768px) {
   html {
-    font-size: 52%;
+    font-size: 54%;
   }
 }
 
 body {
-  color: var(--clr-white);
+  color: var(--text-200);
   overflow-x: hidden;
   background-color: var(--background);
   font-family: var(--ff-roboto-condensed);
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 1rem;
+    align-items: center;
+  }
 }

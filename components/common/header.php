@@ -1,10 +1,3 @@
-<?php
-    // Include the configuration file
-    require_once('./config/config.php');
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
