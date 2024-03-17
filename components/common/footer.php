@@ -35,8 +35,8 @@
             <p>
                 Subscribe to our newsletter for upcoming updates
             </p>
-            <form action="#" class="subscribe">
-                <input type="text" placeholder="Your email" required>
+            <form action="./config/subscribe.php" class="subscribe" method="post">
+                <input type="email" id="email" name="email" placeholder="Enter  your email address..." required />
                 <button type="submit" class="sub-btn"><i class="fa-solid fa-paper-plane"></i></button>
             </form>
             <!-- <div class="icons">
