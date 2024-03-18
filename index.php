@@ -44,7 +44,7 @@
 
 
 <!----------| About section start |---------->
-<section class="about">
+<section class="about" id="about-us">
     <div class="about-container">
         <div class="about-image-container">
             <img src="./assets/images/developer-activity.png" alt="" />
@@ -91,8 +91,18 @@
 </section>
 <!----------| About section end |---------->
 
+<section class="google-trends">
+    <h2>Last day web search (C, Python, Java and JavaScript) trend:</h2>
+    <div class="graph"></div>
+    <?php
+        include('./components/google-trends.php');
+    ?>
+
+
+</section>
+
 <!----------| Contact Us section start |---------->
-<section class="contact-us">
+<section class="contact-us" id="contact-us">
     <div class="contect-us-container">
         <div class="contact-us-image-container">
             <img src="./assets/images/contact-us.png" alt="">
