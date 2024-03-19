@@ -10,7 +10,6 @@
   box-sizing: border-box;
   text-transform: none;
   text-decoration: none;
-  list-style: none;
 }
 
 :root {
@@ -166,7 +165,7 @@ span {
 
 .shadow-btn:hover {
   letter-spacing: 2px;
-  box-shadow: 0 0 2px var(--text-100), 0 0 10px var(--text-200), 0 0 20px var(--text-100), 0 0 100px var(--text-200);
+  box-shadow: 0 0 2px var(--text-100), 0 0 5px var(--text-200), 0 0 10px var(--text-100), 0 0 100px var(--text-200);
 }
 
 /*----------| Import all custom component styles |----------*/
@@ -217,6 +216,7 @@ span {
   align-items: center;
   gap: 4rem;
   z-index: 1111111;
+  list-style: none;
 }
 .header .nav-menu-links li {
   letter-spacing: normal;
@@ -370,7 +370,6 @@ span {
   width: 68rem;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 50% 50% 0.5rem 0.5rem;
 }
 
 /*----------| landing page about container |----------*/
@@ -773,6 +772,9 @@ section.google-trends h2 {
   font-size: 2rem;
   font-weight: 600;
 }
+.footer .footer-row .footer-col .links {
+  list-style: none;
+}
 .footer .footer-row .footer-col .links li {
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
@@ -860,4 +862,36 @@ section.google-trends h2 {
     display: flex;
     justify-content: center;
   }
+}
+.guidelines {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--clr-white);
+}
+.guidelines .guidelines-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 4rem;
+}
+.guidelines .guidelines-container .guidelines-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container {
+  text-align: left;
+  padding-top: 3rem;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol li.guidelines-point {
+  padding-top: 2rem;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol ul {
+  padding-left: 3rem;
 }/*# sourceMappingURL=style.css.map */

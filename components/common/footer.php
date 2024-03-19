@@ -14,19 +14,20 @@
         <div class="footer-col">
             <h4>Useful links</h4>
             <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Guidelines</a></li>
-                <li><a href="#">Registration</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="./index.php#about-us">About Us</a></li>
+                <li><a href="./guidelines">Guidelines</a></li>
+                <li><a href="./registration.php">Registration</a></li>
+                <li><a href="./contact.php">Contact Us</a></li>
             </ul>
         </div>
 
         <div class="footer-col">
             <h4>Extra Links</h4>
             <ul class="links">
-                <li><a href="#">Upcoming Events</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="./gallery.php">Gallery</a></li>
+                <li><a href="./articles.php">Articales</a></li>
+                <li><a href="./blogs.php">Blogs</a></li>
             </ul>
         </div>
 

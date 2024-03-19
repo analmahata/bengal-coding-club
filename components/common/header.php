@@ -57,9 +57,11 @@
         </div>
 
         <ul class="nav-menu-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Guidelines</a></li>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./index.php#about-us">About</a></li>
+            <li><a href="./guidelines.php">Guidelines</a></li>
+            <li><a href="./blogs.php">Blogs</a></li>
+            <li><a href="./articles.php">Articles</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
 
