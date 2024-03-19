@@ -397,6 +397,8 @@ span {
   background-color: var(--clr-white);
 }
 .contact-us .contect-us-container {
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
   display: flex;
   gap: 2rem;
@@ -458,10 +460,12 @@ span {
   color: var(--text-200);
   background-color: var(--clr-white);
   transition: 400ms ease-in-out;
+  border: 1px solid var(--clr-gray-500);
+  background-color: var(--clr-gray-200);
 }
 .contact-us .contect-us-container .contact-us-form-container .contact-us-form .contact-us-btn .contact-us-submit-btn:hover {
   color: var(--clr-white);
-  background-color: #772a96;
+  background-color: #b060cf;
 }
 
 /*----------| landing page google trends section |----------*/
@@ -537,27 +541,18 @@ section.google-trends h2 {
     width: 40rem;
     height: 40rem;
   }
-  .about {
+  .about .about-container {
     height: -moz-fit-content;
     height: fit-content;
-  }
-  .about .about-container {
-    display: flex;
-    gap: 3rem;
-    align-items: center;
-    padding-top: 6rem;
-  }
-  .about .about-container .about-image-container img {
-    width: 40rem;
-  }
-  .about .about-container .about-text-container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center;
+    padding-bottom: 2rem;
   }
-  .about .about-container .about-text-container .about-heading {
-    font-size: 4.5rem;
-    font-family: var(--ff-kaushan-script);
+  .about .about-container .about-text-container {
+    align-items: center;
+    text-align: center;
   }
   .contact-us {
     padding: 4rem 0;
@@ -581,35 +576,7 @@ section.google-trends h2 {
     text-align: center;
   }
 }
-@media (max-width: 830px) {
-  .hero {
-    padding: 0 5rem;
-  }
-  .hero .hero-container {
-    height: -moz-fit-content;
-    height: fit-content;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 5rem;
-  }
-  .hero .hero-container .hero-container-text {
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .hero .hero-container .hero-container-text h4 {
-    font-size: 5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
-  .hero .hero-container .hero-image-container img {
-    width: 60rem;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-}
-@media (max-width: 800px) {
+@media (max-width: 835px) {
   .hero {
     height: -moz-fit-content;
     height: fit-content;

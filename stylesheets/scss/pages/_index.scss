@@ -78,6 +78,7 @@
 .contact-us {
   background-color: var(--clr-white);
   .contect-us-container {
+    height: fit-content;
     width: 100%;
     display: flex;
     gap: 2rem;
@@ -154,10 +155,12 @@
             color: var(--text-200);
             background-color: var(--clr-white);
             transition: 400ms ease-in-out;
+            border: 1px solid var(--clr-gray-500);
+            background-color: var(--clr-gray-200);
 
             &:hover {
               color: var(--clr-white);
-              background-color: #772a96;
+              background-color: #b060cf;
             }
           }
         }
@@ -275,27 +278,17 @@ section.google-trends {
   }
 
   .about {
-    height: fit-content;
     .about-container {
+      height: fit-content;
       display: flex;
-      gap: 3rem;
+      flex-direction: column;
+      gap: 2rem;
       align-items: center;
-      padding-top: 6rem;
-
-      .about-image-container {
-        img {
-          width: 40rem;
-        }
-      }
+      padding-bottom: 2rem;
 
       .about-text-container {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        .about-heading {
-          font-size: 4.5rem;
-          font-family: var(--ff-kaushan-script);
-        }
+        align-items: center;
+        text-align: center;
       }
     }
   }
@@ -335,40 +328,7 @@ section.google-trends {
   }
 }
 
-@media (max-width: 830px) {
-  .hero {
-    padding: 0 5rem;
-
-    .hero-container {
-      height: fit-content;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      gap: 5rem;
-
-      .hero-container-text {
-        gap: 1rem;
-        display: flex;
-        flex-direction: column;
-
-        h4 {
-          font-size: 5rem;
-          font-weight: 900;
-          text-transform: uppercase;
-        }
-      }
-
-      .hero-image-container {
-        img {
-          width: 60rem;
-          height: fit-content;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 835px) {
   .hero {
     height: fit-content;
     padding: 0 5rem;
