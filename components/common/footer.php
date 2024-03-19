@@ -16,8 +16,8 @@
             <ul class="links">
                 <li><a href="./index.php">Home</a></li>
                 <li><a href="./index.php#about-us">About Us</a></li>
-                <li><a href="./guidelines">Guidelines</a></li>
-                <li><a href="./registration.php">Registration</a></li>
+                <li><a href="./guidelines.php">Guidelines</a></li>
+                <li><a href="#">Registration</a></li>
                 <li><a href="./contact.php">Contact Us</a></li>
             </ul>
         </div>

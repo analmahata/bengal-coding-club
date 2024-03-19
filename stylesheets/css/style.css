@@ -752,6 +752,42 @@ section.google-trends h2 {
     text-align: center;
   }
 }
+.guidelines {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--clr-white);
+}
+.guidelines .guidelines-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 4rem;
+}
+.guidelines .guidelines-container .guidelines-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container {
+  text-align: left;
+  padding-top: 3rem;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol li.guidelines-point {
+  padding-top: 2rem;
+}
+.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol ul {
+  padding-left: 3rem;
+}
+.guidelines .guidelines-container .guidelines-text-container .guidelines-wish {
+  padding-top: 3rem;
+}
+
 .footer {
   background: var(--clr-white);
   padding: 4rem 8rem;
@@ -862,36 +898,4 @@ section.google-trends h2 {
     display: flex;
     justify-content: center;
   }
-}
-.guidelines {
-  width: 100vw;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: var(--clr-white);
-}
-.guidelines .guidelines-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  padding: 4rem;
-}
-.guidelines .guidelines-container .guidelines-text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container {
-  text-align: left;
-  padding-top: 3rem;
-}
-.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol {
-  font-size: 2rem;
-  font-weight: 500;
-}
-.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol li.guidelines-point {
-  padding-top: 2rem;
-}
-.guidelines .guidelines-container .guidelines-text-container .detail-guidelines-container ol ul {
-  padding-left: 3rem;
 }/*# sourceMappingURL=style.css.map */
