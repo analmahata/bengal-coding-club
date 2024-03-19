@@ -28,7 +28,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-----------<=====| Stylesheets |=====>----------->
-    <link rel="stylesheet" href="./stylesheets/css/style.css" />
+    <link rel="stylesheet" href="./stylesheets/css/style.css?v=<?php echo time(); ?>" />
 
     <!-------------------<[😎]>>-------------------
         This website created by Anal Mahata
@@ -62,7 +62,7 @@
             <li><a href="./guidelines.php">Guidelines</a></li>
             <li><a href="./blogs.php">Blogs</a></li>
             <li><a href="./articles.php">Articles</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
 
         <div class="inactive" id="menu-icon">

@@ -268,7 +268,7 @@ span {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   #menu-icon {
     display: inline-block;
     color: var(--text-200);
@@ -487,7 +487,6 @@ section.google-trends h2 {
   .hero .hero-container .hero-image-container img {
     width: 45rem;
     height: 45rem;
-    border-radius: 50% 50% 0.5rem 0.5rem;
   }
   .about {
     height: -moz-fit-content;
@@ -537,7 +536,6 @@ section.google-trends h2 {
   .hero .hero-container .hero-image-container img {
     width: 40rem;
     height: 40rem;
-    border-radius: 50% 50% 0.5rem 0.5rem;
   }
   .about {
     height: -moz-fit-content;
@@ -583,13 +581,15 @@ section.google-trends h2 {
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .hero {
     padding: 0 5rem;
   }
   .hero .hero-container {
-    height: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     gap: 5rem;
   }
@@ -604,12 +604,12 @@ section.google-trends h2 {
     text-transform: uppercase;
   }
   .hero .hero-container .hero-image-container img {
-    width: 35rem;
-    height: 35rem;
-    border-radius: 50% 50% 0.5rem 0.5rem;
+    width: 60rem;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
-@media (max-width: 635px) {
+@media (max-width: 800px) {
   .hero {
     height: -moz-fit-content;
     height: fit-content;
@@ -637,7 +637,6 @@ section.google-trends h2 {
   .hero .hero-container .hero-image-container img {
     width: 45rem;
     height: 45rem;
-    border-radius: 50% 50% 0.5rem 0.5rem;
   }
   .about .about-container {
     height: -moz-fit-content;
@@ -710,7 +709,6 @@ section.google-trends h2 {
   .hero .hero-container .hero-image-container img {
     width: 45rem;
     height: 45rem;
-    border-radius: 50% 50% 0.5rem 0.5rem;
   }
   .about .about-container {
     height: -moz-fit-content;
@@ -812,7 +810,7 @@ section.google-trends h2 {
   list-style: none;
 }
 .footer .footer-row .footer-col .links li {
-  padding: 0.5rem 0.5rem 0.5rem 0;
+  margin: 1.5rem 1.5rem 1.5rem 0;
 }
 .footer .footer-row .footer-col .links li a {
   padding: 2.5rem 2.5rem 2.5rem 0;
@@ -891,7 +889,7 @@ section.google-trends h2 {
     text-align: center;
   }
   .footer .footer-row .footer-col .links li {
-    padding-left: 2.5rem;
+    margin: 1.3rem 1.3rem 1.3rem 1.3rem;
   }
   .footer .footer-row .footer-col .subscribe {
     width: 100%;

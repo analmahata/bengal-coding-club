@@ -191,7 +191,6 @@ section.google-trends {
         img {
           width: 45rem;
           height: 45rem;
-          border-radius: 50% 50% 0.5rem 0.5rem;
         }
       }
     }
@@ -270,7 +269,6 @@ section.google-trends {
         img {
           width: 40rem;
           height: 40rem;
-          border-radius: 50% 50% 0.5rem 0.5rem;
         }
       }
     }
@@ -337,13 +335,14 @@ section.google-trends {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .hero {
     padding: 0 5rem;
 
     .hero-container {
-      height: 100%;
+      height: fit-content;
       display: flex;
+      flex-direction: column-reverse;
       align-items: center;
       gap: 5rem;
 
@@ -361,16 +360,15 @@ section.google-trends {
 
       .hero-image-container {
         img {
-          width: 35rem;
-          height: 35rem;
-          border-radius: 50% 50% 0.5rem 0.5rem;
+          width: 60rem;
+          height: fit-content;
         }
       }
     }
   }
 }
 
-@media (max-width: 635px) {
+@media (max-width: 800px) {
   .hero {
     height: fit-content;
     padding: 0 5rem;
@@ -400,7 +398,6 @@ section.google-trends {
         img {
           width: 45rem;
           height: 45rem;
-          border-radius: 50% 50% 0.5rem 0.5rem;
         }
       }
     }
@@ -498,7 +495,6 @@ section.google-trends {
         img {
           width: 45rem;
           height: 45rem;
-          border-radius: 50% 50% 0.5rem 0.5rem;
         }
       }
     }
