@@ -118,7 +118,7 @@ Save the changes to your settings, and enjoy the seamless integration of live Sa
 
 ## Help Needed?
 
-If you have any questions or need further clarification, feel free to open an issue or reach out to support@bengalcodingclub.com directly.
+If you have any questions or need further clarification, feel free to open an issue or reach out to support@bengalcodingclubs.com directly.
 
 We appreciate your contribution to Bengal Coding Club!
 
